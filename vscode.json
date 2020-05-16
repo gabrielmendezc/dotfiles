@@ -1,0 +1,38 @@
+{
+  "editor.fontFamily": "Operator Mono, 'Courier New', monospace",
+  "editor.fontSize": 20,
+  "editor.lineHeight": 35,
+  "workbench.editor.tabSizing": "shrink",
+  "editor.fontWeight": "400",
+  "editor.renderWhitespace": "boundary",
+  "editor.minimap.enabled": false,
+  "editor.colorDecorators": true,
+  "editor.cursorStyle": "line",
+  "editor.folding": false,
+  "editor.fontLigatures": true,
+  "workbench.panel.defaultLocation": "bottom",
+  "editor.detectIndentation": false,
+  "editor.smoothScrolling": true,
+  "prettier.singleQuote": true,
+  "emmet.triggerExpansionOnTab": true,
+  "editor.formatOnSave": true,
+  "window.zoomLevel": 1,
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "prettier.quoteProps": "preserve",
+  "editor.tabSize": 2,
+  "editor.cursorSmoothCaretAnimation": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "workbench.colorTheme": "SynthWave '84"
+}
