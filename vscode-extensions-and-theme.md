@@ -2,7 +2,7 @@
 
 ```js
 const themeSettings = {
-  theme: `SynthWave '84`,
+  theme: `Shades of Purple`,
   icons: 'Material Icon Theme'
 };
 
