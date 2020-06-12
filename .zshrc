@@ -1,3 +1,7 @@
+export PATH=/usr/local/bin:$PATH
+
+. "$HOME/.nvm/nvm.sh"
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.      
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.        
@@ -69,6 +73,9 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
+
+# Ignore permissions
+ZSH_DISABLE_COMPFIX=true
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
