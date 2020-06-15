@@ -5,7 +5,7 @@ module.exports = {
     updateChannel: 'stable',
 
     // default font size in pixels for all tabs
-    fontSize: 22,
+    fontSize: 20,
     // font family with optional fallbacks
     fontFamily: 'Dank Mono, FiraCode NF, Operator Mono, monospace',
 
@@ -53,11 +53,11 @@ module.exports = {
     
     // the shell to run when spawning a new session (i.e. /usr/local/bin/fish)
     // if left empty, your system's login shell will be used by default
-    shell: 'C:\\Windows\\System32\\Bash.exe',
+    shell: 'C:\\Windows\\System32\\wsl.exe',
 
     // for setting shell arguments (i.e. for using interactive shellArgs: ['-i'])
     // by default ['--login'] will be used
-    shellArgs: ['--login'],
+    shellArgs: ['~'],
 
     // An object of environment variables to set before launching shell
     env: {},
