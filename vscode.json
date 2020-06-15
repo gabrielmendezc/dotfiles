@@ -11,6 +11,7 @@
   "editor.folding": false,
   "editor.fontLigatures": true,
   "workbench.panel.defaultLocation": "bottom",
+  "explorer.compactFolders": false,
   "editor.detectIndentation": false,
   "editor.smoothScrolling": true,
   "prettier.singleQuote": true,
