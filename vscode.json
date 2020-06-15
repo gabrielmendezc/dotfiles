@@ -1,18 +1,17 @@
 {
-  "editor.fontFamily": "Dank Mono, 'Courier New', monospace",
+  "editor.fontFamily": "Dank Mono, FiraCode NF, Operator Mono, monospace",
   "terminal.integrated.fontFamily": "Dank Mono, FiraCode NF, Operator Mono, monospace",
-  "editor.fontSize": 20,
-  "editor.lineHeight": 35,
+  "editor.fontSize": 17,
+  "editor.lineHeight": 28,
   "workbench.editor.tabSizing": "shrink",
   "editor.fontWeight": "400",
-  "editor.renderWhitespace": "boundary",
   "editor.minimap.enabled": false,
   "editor.colorDecorators": true,
   "editor.cursorStyle": "line",
   "editor.folding": false,
-  "editor.fontLigatures": true,
-  "workbench.panel.defaultLocation": "bottom",
   "explorer.compactFolders": false,
+  "editor.fontLigatures": true,
+  "workbench.panel.defaultLocation": "right",
   "editor.detectIndentation": false,
   "editor.smoothScrolling": true,
   "prettier.singleQuote": true,
@@ -35,6 +34,12 @@
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-  "workbench.colorTheme": "SynthWave '84"
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+  "workbench.colorTheme": "Night Owl",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 }
