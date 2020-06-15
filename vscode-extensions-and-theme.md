@@ -2,11 +2,13 @@
 
 ```js
 const themeSettings = {
-  theme: `Shades of Purple`,
+  theme: `Night Owl`,
   icons: 'Material Icon Theme'
 };
 
 const extensions = [
+  'Remote - WSL',
+  'YAML',
   'Apollo GraphQL',
   'Auto Rename Tag',
   'Bracket Pair Colorizer',
