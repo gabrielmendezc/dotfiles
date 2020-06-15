@@ -1,3 +1,13 @@
+# Aliases
+alias gpu="git push"
+alias gcm="git commit -m"
+alias ga="git add"
+alias gco="git checkout"
+alias gs="git stash"
+alias gpl="git pull"
+alias gb="git branch"
+alias gst="git status"
+
 export PATH=/usr/local/bin:$PATH
 
 . "$HOME/.nvm/nvm.sh"
