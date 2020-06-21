@@ -1,8 +1,8 @@
 {
-  "editor.fontFamily": "Dank Mono, FiraCode NF, Operator Mono, monospace",
+  "editor.fontFamily": "'.', 'Courier New', monospace",
   "terminal.integrated.fontFamily": "Dank Mono, FiraCode NF, Operator Mono, monospace",
-  "editor.fontSize": 17,
-  "editor.lineHeight": 28,
+  "editor.fontSize": 15,
+  "editor.lineHeight": 26,
   "workbench.editor.tabSizing": "shrink",
   "editor.fontWeight": "400",
   "editor.minimap.enabled": false,
@@ -17,7 +17,7 @@
   "prettier.singleQuote": true,
   "emmet.triggerExpansionOnTab": true,
   "editor.formatOnSave": true,
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 0,
   "typescript.preferences.importModuleSpecifier": "relative",
   "prettier.quoteProps": "preserve",
   "editor.tabSize": 2,
@@ -35,11 +35,16 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
-  "workbench.colorTheme": "Night Owl",
+  "svn.enabled": true,
+  "workbench.colorTheme": "Monokai Pro (Filter Machine)",
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[yaml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "extensions.ignoreRecommendations": false
 }
