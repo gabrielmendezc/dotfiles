@@ -2,8 +2,9 @@
 
 ```js
 const themeSettings = {
-  theme: `Night Owl`,
-  icons: 'Material Icon Theme'
+  theme: `Monokai Pro (Filter machine)`,
+  icons: 'Material Icon Theme',
+  font: 'Monolisa'
 };
 
 const extensions = [
