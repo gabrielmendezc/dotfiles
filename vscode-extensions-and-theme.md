@@ -2,9 +2,8 @@
 
 ```js
 const themeSettings = {
-  theme: `Monokai Pro (Filter machine)`,
-  icons: 'Material Icon Theme',
-  font: 'Monolisa'
+  theme: `Bluloco Light Italic`,
+  icons: 'vscode-icons',
 };
 
 const extensions = [
