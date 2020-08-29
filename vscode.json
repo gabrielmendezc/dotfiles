@@ -1,8 +1,8 @@
 {
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "Dank Mono, 'Courier New', monospace",
   "terminal.integrated.fontFamily": "Dank Mono, FiraCode NF, Operator Mono, monospace",
-  "editor.fontSize": 17,
-  "editor.lineHeight": 26,
+  "editor.fontSize": 18,
   "workbench.editor.tabSizing": "shrink",
   "editor.fontWeight": "400",
   "editor.minimap.enabled": false,
@@ -10,45 +10,40 @@
   "editor.cursorStyle": "line",
   "editor.folding": false,
   "explorer.compactFolders": false,
-  "editor.fontLigatures": true,
   "workbench.panel.defaultLocation": "right",
+  "editor.renderWhitespace": "boundary",
   "editor.detectIndentation": false,
   "editor.smoothScrolling": true,
-  "editor.renderWhitespace": "boundary",
   "prettier.singleQuote": true,
   "emmet.triggerExpansionOnTab": true,
   "editor.formatOnSave": true,
-  "window.zoomLevel": 0,
+  "editor.tabSize": 2,
   "typescript.preferences.importModuleSpecifier": "relative",
   "prettier.quoteProps": "preserve",
-  "editor.tabSize": 2,
   "editor.cursorSmoothCaretAnimation": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
+  "go.autocompleteUnimportedPackages": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
+  "terminal.integrated.shellArgs.linux": ["--login"],
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.iconTheme": "vscode-icons",
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+  "workbench.iconTheme": "material-icon-theme",
   "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
-  "workbench.colorTheme": "Bluloco Light Italic",
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust",
+    "editor.tabSize": 4
   },
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[yaml]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "[go]": {
+    "editor.defaultFormatter": "golang.go",
+    "editor.tabSize": 4
   },
   "extensions.ignoreRecommendations": false,
   "breadcrumbs.enabled": true,
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+  "workbench.colorTheme": "Night Owl",
+  "go.formatTool": "goimports"
 }
+
