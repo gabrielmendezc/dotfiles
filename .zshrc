@@ -1,6 +1,7 @@
 # Functions for aliases
 gssh() {
-        eval $(ssh-agent -s)        ssh-add ~/.ssh/id_rsa
+        eval $(ssh-agent -s)        
+        ssh-add ~/.ssh/id_rsa
 }
 gpsh() {
         git push origin $(git branch --show-current)
